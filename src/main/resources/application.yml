@@ -1,0 +1,5 @@
+linkChick:
+#excel所在路径
+  filePath: /data/temp/
+#存放异常链接excel的文件夹
+  failPath: /data/fail/
