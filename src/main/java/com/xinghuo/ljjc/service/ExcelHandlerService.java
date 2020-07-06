@@ -90,7 +90,7 @@ public class ExcelHandlerService {
         if (failLinkList != null && failLinkList.size() > 0) {
             File failFile = new File(failPath);
             if (!failFile.exists()){
-                failFile.mkdir();
+                failFile.mkdirs();
             }
             String fileName = failPath + new SimpleDateFormat("yyyy-MM-dd").format(new Date()) + "异常链接.xls";
 
